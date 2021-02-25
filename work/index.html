@@ -29,10 +29,13 @@
         <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg">
         <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg">
         <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg">
+        <img id="spitz-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg">  
+        <img id="agra-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg">  
         <audio id="click-sound" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
-        <img id="Michael" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg">
+        <img id="cubes" crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Helvellyn_Striding_Edge_360_Panorama%2C_Lake_District_-_June_09.jpg">
         <img id="sechelt" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg">
-
+        <img id="spitz" crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Spitzkoppe_360_Panorama.jpg">
+        <img id="agra" crossorigin="anonymous" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/P75-wikipedia.jpg">  
       </a-assets>
 
       <!-- 360-degree image. -->
@@ -42,9 +45,11 @@
 
       <!-- Image links. -->
       <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -4">
-        <a-entity template="src: #link" data-src="#Michael" data-thumb="#cubes-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#cubes" data-thumb="#cubes-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#city" data-thumb="#city-thumb"></a-entity>
         <a-entity template="src: #link" data-src="#sechelt" data-thumb="#sechelt-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#spitz" data-thumb="#spitz-thumb"></a-entity>
+        <a-entity template="src: #link" data-src="#agra" data-thumb="#agra-thumb"></a-entity>
       </a-entity>
 
       <!-- Camera + cursor. -->
